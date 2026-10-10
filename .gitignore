@@ -1,0 +1,23 @@
+# Python environment & cache
+__pycache__/
+*.py[cod]
+*$py.class
+ai_companion_env/
+venv/
+.venv/
+
+# Temporary audio pipes and log outputs
+/tmp/*
+*.fifo
+*.log
+daily_transcripts/
+
+# Large model binaries (Keep instructions/code, exclude heavy binaries)
+*.bin
+*.onnx
+*.engine
+
+# System / IDE files
+.DS_Store
+.vscode/
+.idea/
